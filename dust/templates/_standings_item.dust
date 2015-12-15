@@ -1,0 +1,7 @@
+<a href="{Url}" class="clearfix">
+    <span class="rank {RankClass}">{Rank}</span>
+    <span class="team">{Team}</span>
+    <span class="number">{P}</span>
+    <span class="number">{Av}</span>
+    <span class="number">{O}</span>
+</a>

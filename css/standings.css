@@ -1,0 +1,15 @@
+.content-slide {min-height: 500px; border: dotted 1px salmon;}
+.content-slide .puan_durumu .head_text { display: block; height: 16px; padding: 5px 1%; font-size: 12px; }
+.content-slide .puan_durumu .head_text b { display: block; float: left; width: 68%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.content-slide .puan_durumu .head_text span { display: block; float: right; width: 10%; text-align: center; }
+.content-slide .puan_durumu a { display: block; padding: 10px 1%; background: #444; margin-bottom: 1px; font-size: 13px; }
+.content-slide .puan_durumu a.selected { background: #555; }
+.content-slide .puan_durumu a i { display: block; float: left; width: 5%; text-align: center; color: #787776; font-size: 18px; font-weight: bold; margin-top: -5px; }
+.content-slide .puan_durumu a i.in { color: #6fb600; font-size: 10px; font-weight: normal; margin: 0; }
+.content-slide .puan_durumu a i.out { color: #cf1414; font-size: 10px; font-weight: normal; margin: 0; }
+.content-slide .puan_durumu a .rank { display: block; float: left; height: 18px; width: 18px; line-height: 19px; text-align: center; border-radius: 18px; margin: -3px 7px 0 3px; color: #787776; }
+.content-slide .puan_durumu a .rank.cl { background: #c4df90; color: #010101; margin-top: -2px; }
+.content-slide .puan_durumu a .rank.uefa { background: #a2bed8; color: #010101; margin-top: -2px; }
+.content-slide .puan_durumu a .rank.down { background: #e69090; color: #010101; margin-top: -2px; }
+.content-slide .puan_durumu a .team { display: block; float: left; width: 55%; height: 15px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.content-slide .puan_durumu a .number { display: block; float: right; width: 10%; text-align: center; }

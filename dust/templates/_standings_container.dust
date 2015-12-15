@@ -1,0 +1,11 @@
+<div class="puan_durumu">
+        <div class="head_text">
+            <b>{LeageuName}</b>
+            <span>P</span>
+            <span>Av</span>
+            <span>O</span>
+        </div>
+        {#Standings}
+        {>"_standings_item" /}
+        {/Standings}
+</div>
