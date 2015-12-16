@@ -1,0 +1,71 @@
+{
+  "TournamentCount": 8,
+  "StageType": "Group",
+  "Standings" : [
+    {
+      "LeagueName" : "Ziraat Türkiye Kupası",
+      "GroupName" : "A Grubu",
+      "Standings" : [
+        {
+          "Team" : "Amed Sportif Faaliyetler",
+          "StatusClass" : "",
+          "Rank" : 1,
+          "Url" : "/Amed",
+          "O" : 15,
+          "Av" : 18,
+          "P" : 32
+        },
+        {
+          "Team" : "BandırmaSpor",
+          "StatusClass" : "",
+          "Rank" : 2,
+          "Url" : "/bandirma",
+          "O" : 15,
+          "Av" : 18,
+          "P" : 32
+        },
+        {
+          "Team" : "Medipol",
+          "StatusClass" : "",
+          "Rank" : 3,
+          "Url" : "/medipol",
+          "O" : 15,
+          "Av" : 18,
+          "P" : 32
+        }
+      ]
+    },
+    {
+      "LeagueName" : "Ziraat Türkiye Kupası",
+      "GroupName" : "B Grubu",
+      "Standings" :[{
+        "Team" : "Bursaspor",
+        "StatusClass" : "",
+        "Rank" : 1,
+        "Url" : "/bursa",
+        "O" : 15,
+        "Av" : 18,
+        "P" : 32
+      },
+        {
+          "Team" : "Boluspor",
+          "StatusClass" : "",
+          "Rank" : 2,
+          "Url" : "/Bolu",
+          "O" : 15,
+          "Av" : 18,
+          "P" : 32
+        },
+        {
+          "Team" : "Eskişehir",
+          "StatusClass" : "",
+          "Rank" : 3,
+          "Url" : "/Eskisehir",
+          "O" : 15,
+          "Av" : 18,
+          "P" : 32
+        }
+      ]
+    }
+  ]
+}
