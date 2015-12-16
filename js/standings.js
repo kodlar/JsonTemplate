@@ -3,27 +3,38 @@
  */
 function getJsonData(url)
 {
-
     $.get(url,  function( response ) {
         console.log( response );
         renderStandings(response);
     });
 }
 
-getJsonData("../json/standings/index.json");
-
+//Lig tipi
+/*getJsonData("../json/standings/League.json");*/
+//Grup tipi
+getJsonData("../json/standings/Group.json");
 
 function renderStandings(data)
 {
-    window.dust.render('_standings_container', data, function (err, out) {
+    if(data.StageType === "League")
+    {
+        dust.render('_standings_container', data, function (err, out) {
+            if (data.Standings.length > 0) {
+                $(".content-slide").html(out);
+            } else {
+                console.log(err);
+            }
+        });
+    }
+    else
+    {
+        dust.render('_standings_group_container', data, function (err, out) {
+            if (data.Standings.length > 0) {
+                $(".content-slide").html(out);
+            } else {
+                console.log(err);
+            }
+        });
+    }
 
-        if (data.Standings.length > 0)
-        {
-         $(".content-slide").html(out);
-        }
-        else
-        {
-        console.log("hata oluştu");
-        }
-    });
 }

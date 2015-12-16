@@ -1,4 +1,7 @@
 <a href="{Url}" class="clearfix">
+    {@eq key=StatusClass value="in" type="string"}<i class="in">&#9650</i>{/eq}
+    {@eq key=StatusClass value="out" type="string"}<i class="out">&#9660</i>{/eq}
+    {@eq key=StatusClass value="" type="string"}<i>-</i>{/eq}
     <span class="rank {RankClass}">{Rank}</span>
     <span class="team">{Team}</span>
     <span class="number">{P}</span>

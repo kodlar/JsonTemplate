@@ -1,7 +1,7 @@
 <div class="puan_durumu">
         <div class="head_text">
             {#Standings}
-            <b>{LeageuName}</b>
+            <b>{LeageuName} - GroupName</b>
             <span>P</span>
             <span>Av</span>
             <span>O</span>
