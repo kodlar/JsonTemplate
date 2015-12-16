@@ -1,11 +1,12 @@
 <div class="puan_durumu">
+{#Standings}
         <div class="head_text">
-            {#Standings}
-            <b>{LeageuName} - GroupName</b>
+
+            <b>{LeagueName} - {GroupName}</b>
             <span>P</span>
             <span>Av</span>
             <span>O</span>
         </div>
     {#Standings}{>"_standings_item" /}{/Standings}
-    {/Standings}
+{/Standings}
 </div>
